@@ -1,24 +1,29 @@
+import PageHero from '../components/PageHero';
 import SEO from '../components/SEO';
 import { processSteps } from '../data/siteData';
 
 export default function ProcessPage() {
   return (
-    <section className="subpage">
-      <SEO title="工艺能力" description="ICEFORM 展示注塑成型、灌装密封、质量控制和批量交付能力。" keywords="冰晶盒注塑,冰排生产,蓄冷剂灌装,冷链质量控制" />
+    <>
+      <SEO title="工艺能力" description="ICEFORM 注塑冰晶盒制造工艺：从需求定义、模具开发到注塑成型、灌装密封和包装交付。" keywords="冰晶盒制造,注塑工艺,冰盒模具,冷链产品质量控制" />
+      <PageHero image="/assets/home-process-bg.png" title="工艺能力页面横幅" />
+      <section className="subpage subpage--with-hero">
       <div className="page-title">
         <span>Manufacturing</span>
         <h1>工艺能力</h1>
         <p>围绕注塑外壳、灌装密封和稳定量产，把官网展示从产品图扩展到制造可信度。</p>
       </div>
+
       <div className="process-timeline">
-        {processSteps.map(([index, title, copy]) => (
-          <article className="timeline-card" key={index}>
-            <span>{index}</span>
+        {processSteps.map(([idx, title, desc]) => (
+          <article className="timeline-card" key={idx}>
+            <span>{idx}</span>
             <h3>{title}</h3>
-            <p>{copy}</p>
+            <p>{desc}</p>
           </article>
         ))}
       </div>
+
       <div className="quality-panel">
         <h2>质量控制重点</h2>
         <div>
@@ -29,6 +34,7 @@ export default function ProcessPage() {
           <span>包装唛头核对</span>
         </div>
       </div>
-    </section>
+      </section>
+    </>
   );
 }

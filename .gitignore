@@ -3,6 +3,10 @@ node_modules/
 
 # Build output
 dist/
+coverage/
+
+# Generated local outputs
+outputs/
 
 # Local environment files
 .env
@@ -20,7 +24,16 @@ pnpm-debug.log*
 Thumbs.db
 .idea/
 .vscode/
+__pycache__/
+*.py[cod]
 
 # Temporary QA screenshots
 desktop-screenshot.png
 mobile-screenshot.png
+
+# Local scratch files
+_write.ps1
+_gen.js
+_test_write_ok.txt
+.vite/
+*.local

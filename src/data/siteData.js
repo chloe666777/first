@@ -19,7 +19,6 @@ export const products = [
     temp: '-18°C 冷冻蓄冷',
     lead: '现货规格 3-7 天',
     image: '/assets/rectangular-cold-pack.jpg',
-    tone: 'lime',
   },
   {
     id: 'apple-kids-pack',
@@ -31,7 +30,6 @@ export const products = [
     temp: '0-8°C 保鲜',
     lead: '支持卡通外形定制',
     image: '/assets/apple-cold-pack.jpg',
-    tone: 'pink',
   },
   {
     id: 'slim-lunch-board',
@@ -43,7 +41,6 @@ export const products = [
     temp: '短途保鲜 4-6h',
     lead: '颜色可按渠道定制',
     image: '/assets/product-family.png',
-    tone: 'blue',
   },
   {
     id: 'medical-cold-chain',
@@ -55,7 +52,6 @@ export const products = [
     temp: '2-8°C / -15°C 可选',
     lead: '可配套验证方案',
     image: '/assets/product-family.png',
-    tone: 'medical',
   },
   {
     id: 'brand-oem',
@@ -67,7 +63,6 @@ export const products = [
     temp: '按蓄冷配方匹配',
     lead: '72h 初步结构建议',
     image: '/assets/product-family.png',
-    tone: 'custom',
   },
 ];
 
@@ -141,7 +136,7 @@ export const faqs = [
 ];
 
 export const contactInfo = {
-  email: 'sales@iceform.com',
+  email: import.meta.env.VITE_INQUIRY_EMAIL || 'sales@iceform.com',
   phone: '+86 400-888-ICEFORM',
   location: '中国 浙江',
 };

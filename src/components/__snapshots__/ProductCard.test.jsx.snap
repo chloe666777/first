@@ -1,0 +1,60 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductCard > matches snapshot 1`] = `
+<article
+  class="product-card"
+>
+  <div
+    class="card__img"
+  >
+    <img
+      alt="标准长效冰晶盒 产品图"
+      loading="lazy"
+      src="/assets/rectangular-cold-pack.jpg"
+    />
+  </div>
+  <div
+    class="card__body"
+  >
+    <span
+      class="category"
+    >
+      保温箱配套
+    </span>
+    <h3>
+      标准长效冰晶盒
+    </h3>
+    <p>
+      加厚筋位结构与稳定蓄冷配方，适合生鲜配送、家庭冷藏和户外保温箱。
+    </p>
+    <dl
+      class="spec-list"
+    >
+      <div>
+        <dt>
+          规格
+        </dt>
+        <dd>
+          600ml / 900ml / 1200ml
+        </dd>
+      </div>
+      <div>
+        <dt>
+          材质
+        </dt>
+        <dd>
+          HDPE 外壳 + 蓄冷凝胶
+        </dd>
+      </div>
+      <div>
+        <dt>
+          温区
+        </dt>
+        <dd>
+          -18°C 冷冻蓄冷
+        </dd>
+      </div>
+    </dl>
+  </div>
+</article>
+`;

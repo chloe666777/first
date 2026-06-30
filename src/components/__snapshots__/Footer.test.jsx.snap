@@ -1,0 +1,156 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > matches snapshot 1`] = `
+<footer
+  class="site-footer"
+>
+  <div
+    class="footer-top"
+  >
+    <div>
+      <a
+        class="footer-brand"
+        data-discover="true"
+        href="/"
+      >
+        <svg
+          aria-hidden="true"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2a8 8 0 0 0-8 8c0 5 4 9 8 12 4-3 8-7 8-12a8 8 0 0 0-8-8z"
+          />
+          <path
+            d="M12 8a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
+          />
+          <path
+            d="M6 10h.01M18 10h.01"
+            stroke-width="2.5"
+          />
+        </svg>
+        ICEFORM
+      </a>
+      <p>
+        注塑成型冰晶盒制造商，为冷链、餐包、户外和医药运输提供稳定蓄冷方案。
+      </p>
+    </div>
+    <div
+      class="footer-contact"
+    >
+      <span>
+        +86 400-888-ICEFORM
+      </span>
+      <a
+        href="mailto:sales@iceform.com"
+      >
+        sales@iceform.com
+      </a>
+      <span>
+        中国 浙江
+      </span>
+    </div>
+  </div>
+  <div
+    class="footer-links"
+  >
+    <div>
+      <h2>
+        产品系列
+      </h2>
+      <a
+        data-discover="true"
+        href="/products"
+      >
+        标准长效冰晶盒
+      </a>
+      <a
+        data-discover="true"
+        href="/products"
+      >
+        儿童苹果冰晶盒
+      </a>
+      <a
+        data-discover="true"
+        href="/products"
+      >
+        轻薄午餐冰板
+      </a>
+      <a
+        data-discover="true"
+        href="/products"
+      >
+        医药冷链冰排
+      </a>
+      <a
+        data-discover="true"
+        href="/products"
+      >
+        品牌 OEM 冰晶盒
+      </a>
+    </div>
+    <div>
+      <h2>
+        应用场景
+      </h2>
+      <a
+        data-discover="true"
+        href="/solutions"
+      >
+        母婴餐包
+      </a>
+      <a
+        data-discover="true"
+        href="/solutions"
+      >
+        户外露营
+      </a>
+      <a
+        data-discover="true"
+        href="/solutions"
+      >
+        生鲜配送
+      </a>
+      <a
+        data-discover="true"
+        href="/solutions"
+      >
+        医药冷链
+      </a>
+    </div>
+    <div>
+      <h2>
+        关于
+      </h2>
+      <a
+        data-discover="true"
+        href="/process"
+      >
+        工艺能力
+      </a>
+      <a
+        data-discover="true"
+        href="/contact"
+      >
+        联系询价
+      </a>
+      <a
+        href="mailto:sales@iceform.com"
+      >
+        资料下载
+      </a>
+    </div>
+  </div>
+  <p
+    class="footer-bottom"
+  >
+    © 
+    2026
+     ICEFORM. All rights reserved.
+  </p>
+</footer>
+`;

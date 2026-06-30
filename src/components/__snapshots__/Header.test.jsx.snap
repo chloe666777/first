@@ -1,0 +1,117 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > matches snapshot 1`] = `
+<header
+  class="site-header"
+>
+  <a
+    class="site-header__brand"
+    data-discover="true"
+    href="/"
+  >
+    <svg
+      aria-hidden="true"
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M12 2a8 8 0 0 0-8 8c0 5 4 9 8 12 4-3 8-7 8-12a8 8 0 0 0-8-8z"
+      />
+      <path
+        d="M12 8a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
+      />
+      <path
+        d="M6 10h.01M18 10h.01"
+        stroke-width="2.5"
+      />
+    </svg>
+    ICEFORM
+  </a>
+  <nav
+    aria-label="主导航"
+    class="site-header__nav"
+  >
+    <a
+      aria-current="page"
+      class="active"
+      data-discover="true"
+      href="/"
+    >
+      首页
+    </a>
+    <a
+      class=""
+      data-discover="true"
+      href="/products"
+    >
+      产品中心
+    </a>
+    <a
+      class=""
+      data-discover="true"
+      href="/solutions"
+    >
+      应用方案
+    </a>
+    <a
+      class=""
+      data-discover="true"
+      href="/process"
+    >
+      工艺能力
+    </a>
+    <a
+      class=""
+      data-discover="true"
+      href="/contact"
+    >
+      询价联系
+    </a>
+  </nav>
+  <div
+    class="site-header__actions"
+  >
+    <a
+      class="btn btn--primary btn--sm"
+      data-discover="true"
+      href="/contact"
+    >
+      获取报价
+    </a>
+    <button
+      aria-expanded="false"
+      aria-label="打开菜单"
+      class="menu-toggle"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-menu"
+        fill="none"
+        height="20"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 5h16"
+        />
+        <path
+          d="M4 12h16"
+        />
+        <path
+          d="M4 19h16"
+        />
+      </svg>
+    </button>
+  </div>
+</header>
+`;

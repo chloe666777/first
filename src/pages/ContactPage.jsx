@@ -1,16 +1,21 @@
 import InquiryForm from '../components/InquiryForm';
+import PageHero from '../components/PageHero';
 import SEO from '../components/SEO';
 import { contactInfo, faqs } from '../data/siteData';
+import { HelpCircle } from 'lucide-react';
 
 export default function ContactPage() {
   return (
-    <section className="subpage contact-page">
+    <>
       <SEO title="询价联系" description="联系 ICEFORM 获取冰晶盒、冰排、保温箱配套和 OEM 定制报价。" keywords="冰晶盒询价,冰排报价,OEM冰晶盒定制" />
+      <PageHero image="/assets/page-contact-hero.png" title="询价联系页面横幅" />
+      <section className="subpage subpage--with-hero contact-page">
       <div className="page-title">
         <span>Inquiry</span>
         <h1>询价联系</h1>
         <p>填写需求后，可按容量、颜色、模具、包装和目标价格继续深化报价。</p>
       </div>
+
       <div className="contact-shell">
         <div className="contact-aside">
           <h2>建议提前准备</h2>
@@ -23,8 +28,9 @@ export default function ContactPage() {
         </div>
         <InquiryForm />
       </div>
+
       <div className="faq-section">
-        <h2>常见问题</h2>
+        <h2><HelpCircle size={20} style={{ verticalAlign: 'middle', marginRight: 6 }} />常见问题</h2>
         <div>
           {faqs.map(([question, answer]) => (
             <details key={question}>
@@ -34,6 +40,7 @@ export default function ContactPage() {
           ))}
         </div>
       </div>
-    </section>
+      </section>
+    </>
   );
 }

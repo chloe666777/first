@@ -8,9 +8,9 @@ export default function NotFoundPage() {
       <span>404</span>
       <h1>页面没有找到</h1>
       <p>链接可能已经更新。你可以回到首页，或直接查看产品中心。</p>
-      <div className="hero-actions">
-        <Link className="button primary" to="/">返回首页</Link>
-        <Link className="button secondary" to="/products">查看产品</Link>
+      <div className="hero__actions">
+        <Link className="btn btn--primary" to="/">返回首页</Link>
+        <Link className="btn btn--ghost" to="/products">查看产品</Link>
       </div>
     </section>
   );
